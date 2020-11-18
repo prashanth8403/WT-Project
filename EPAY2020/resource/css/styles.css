@@ -1,0 +1,56 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300&family=Monoton&display=swap');
+
+.card {
+    border-radius: 0px;
+    
+}
+
+.card-logo {
+    color: #0549d5;
+}
+
+.card-main{
+    padding:10px;
+}
+
+.login{
+    font-size:18px;
+    font-weight:600;
+}
+
+
+
+.bmsit {
+    font-family: 'Monoton', cursive;
+    font-size:30px;
+    user-select:none;
+}
+
+.epay {
+    font-family: 'Codystar', cursive;
+    font-size: 35px;
+    font-weight:600;
+    user-select: none;
+}
+
+.card-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+    .box-input {
+        padding: 5px;
+        width: 100%;
+    }
+
+.margin-bg {
+    margin-top: -100vh;
+}
+
+.page-header-background {
+    filter: blur(8px);
+    background-size: cover;
+    background-position: top center;
+}
