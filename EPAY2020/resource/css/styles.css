@@ -1,6 +1,26 @@
 ﻿
 @import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300&family=Monoton&display=swap');
 
+.validation-offset {
+    margin-top: 25px;
+}
+
+
+.validation-container {
+    margin-left: 11px;
+    color: #ff0000;
+    position: absolute;
+    padding: 5px 5px 50px 5px;
+}
+
+.validation-class-text {
+    color: #ff0000;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
 .register-card {
     box-shadow: none;
 }
@@ -58,10 +78,11 @@
 
 .margin-bg {
     margin-top: -100vh;
+    height: 100%;
 }
 
 .page-header-background {
     filter: blur(8px);
     background-size: cover;
-    background-position: top center;
+    background-position-y:bottom;
 }

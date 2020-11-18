@@ -1752,7 +1752,7 @@ pre {
     .form-control:focus {
         color: #495057;
         background-color: transparent;
-        border-color: #d176e1;
+        border-color: #234eeb;
         outline: 0;
         box-shadow: none,0 0 0 .2rem rgba(156,39,176,.25)
     }
@@ -1842,8 +1842,10 @@ select.form-control:focus::-ms-value {
     height: calc(4.125rem + 2px)
 }
 
+
 .form-group {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    margin-top:25px;
 }
 
 .form-text {
@@ -11946,7 +11948,6 @@ html[dir=rtl] .form-check .form-check-sign .check:before {
 
 .page-header {
     min-height: 100vh;
-    max-height: 1000px;
     display: flex !important;
     padding: 0;
     margin: 0;
@@ -14124,7 +14125,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 form .form-group {
-    margin: 8px 0 0
+    margin: 8px 0 0;
 }
 
     form .form-group label[for=inputState] {
@@ -16207,11 +16208,11 @@ a {
 
 .wrapper.wrapper-full-page {
     height: auto;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .login-page .footer .copyright, .login-page .footer a {
-    color: #fff
+    color: #fff;
 }
 
 .full-page:after, .full-page:before {
