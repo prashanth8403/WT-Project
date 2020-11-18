@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     <li class="nav-item active ">
-                        <a href="login.html" class="nav-link">
+                        <a class="nav-link">
                             <i class="material-icons">fingerprint</i>
                             Login
                         </a>
